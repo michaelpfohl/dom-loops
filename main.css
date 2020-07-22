@@ -1,3 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: #45622A;
+    background: #102542;
+}
+
+.dino-barn {
+    display: flex;
+    justify-content: center;
+}
+
+.dinosaur {
+    border: 2px solid #F87060;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background: #B3A394;
+    width: 30%;
+}
+
+.dinosaur-header {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.assignment-container {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.assignment-card {
+    border: 2px solid #F87060;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background: #B3A394;
+}
+
+.assignment-card:hover, .dinosaur:hover {
+    background: #CDD7D6;
+}
+
+.assignment-card a {
+    color: #F87060;
+}
+
+.assignment-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
